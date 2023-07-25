@@ -56,6 +56,17 @@ img {
         width: auto;
         background: var(--portfolio-background, #FCF9F2)
 }
+.heading3{
+        color: var(--portfolio-text-main, #231F20);
+        text-align: center;
+        font-family: Judson;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: auto;
+        background: var(--portfolio-background, #FCF9F2)
+}
 .btn{
     color: var(--portfolio-text-main, #231F20);
     text-align: center;
@@ -101,6 +112,14 @@ img {
 }
 
 .flex-item {
+    display: center;
     width: 25%;
     margin: 5px;
 }
+.flexContainer {
+display: flex;
+flex-direction: column;
+width: 20%;
+padding: 5%;
+}
+.workGrid{}
